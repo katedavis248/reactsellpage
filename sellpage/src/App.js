@@ -1,32 +1,16 @@
-import React from 'react';
-//import logo from './logo.svg';
-import './App.css';
-import { Nav, NavItem, NavLink } from 'reactstrap';
+import React from "react";
 
+import { BrowserRouter as Router, Route } from "react-router-dom";
+
+import Sellpage from "./pages/Sellpage"
+//import HelloDiv from "./components/HelloDiv";
 function App() {
   return (
-    <div>
+    <Router>
+      <Route exact path="/" component={Sellpage} />
 
-      <Nav>
-        <NavItem>
-          <NavLink href="#">Link</NavLink>
-        </NavItem>
-        <NavItem>
-          <NavLink href="#">Link</NavLink>
-        </NavItem>
-        <NavItem>
-          <NavLink href="#">Another Link</NavLink>
-        </NavItem>
-        <NavItem>
-          <NavLink disabled href="#">Disabled Link</NavLink>
-        </NavItem>
-      </Nav>
-      <hr />
-    </div>
-  );
+    </Router>
+  )
 }
-
-
-
 
 export default App;
