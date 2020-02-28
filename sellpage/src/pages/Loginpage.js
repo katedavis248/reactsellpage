@@ -21,9 +21,9 @@ class Loginpage extends React.Component {
 
                 <button type="submit" className="btn btn-primary">Submit</button>
             </form> 
-                     </div>)
-         
-}
+                 </div>)
+        
+    }
 }
 
 export default Loginpage;    
