@@ -1,15 +1,19 @@
 import React from 'react';
 import Loginpage from './Loginpage'
-import Navbar from './Navbar'
+import Navigation from './Navigation'
 
 const Home = () => {
     return (
         <div>
-            <Navbar />
-            <Loginpage />
+            <Navigation />
+            <div className="container">
+                <Loginpage />
+            </div>
+
         </div>
 
     )
 }
 
 
+export default Home;

@@ -1,0 +1,11 @@
+.container {
+    width: 45%;
+    border: black;
+    margin: 2%;
+    padding: 2%
+}
+
+.header {
+    width: 100%;
+    background-color: cornflowerblue;
+}
